@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+
+#loader{
+    height: 100vh;
+    width: 100%;
+    background: url('img/loader.svg') 	#040404 center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-brand img{
+height: 2rem;
+}
+
+.navbar{
+    background-color: rgba(0,0,0,0.4) !important;
+    
+}
+.navbar-brand img{
+height: 2rem;
+}
+/*
+.nav-link{
+    color: white!important;
+    letter-spacing: 2px;
+    margin-right: 25px;
+    
+}
+*/
+
+.navbar-dark li {
+    padding-right: 30px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: 13px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: aquamarine;
+}
+/*
+nav.black{
+    background-color: rgba(0,0,0,0.8);
+    height: 100px;
+    padding: 10px 100px;
+}
+*/
+
+.navbar-dark li {
+    padding-right: 30px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: 13px;
+}
+/*.navbar-dark .navbar-nav .nav-link.active,*/
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: aquamarine;
+}
+.carousel-item  img {
+  opacity: 0.7;
+  width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    
+position: relative;
+   
+
+}
+.carousel-item {
+    height: 100vh;
+    
+}
+.left{
+    width: 100%;
+    
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 7%;
+   
+    
+}
+
+
+.left h1 {
+    font-size: 70px;
+/*    margin-left: 80px;*/
+/*    line-height: 70px;*/
+    letter-spacing: 5px;
+   
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+.left h3{
+    font-family: 'Archivo Black', sans-serif;
+    padding-top: 15px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+
+#clock1 , #clock3 , #clock4{
+    font-size: 4vh;
+    text-align: center;
+   position: absolute;
+    z-index: 10;
+    margin: 10% 0% 0% 0%;
+ 
+
+    
+}
+#clock2{
+    font-size: 4vh;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    margin-top: 8%;
+}
+
+
+
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+    height: 30%;
+    margin-top: 24%;
+    
+}
+
+
+.icon-bar {
+  width: 50px; 
+    margin-left:80%;
+  
+
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center; 
+  padding: 0; 
+  transition: all 0.3s ease; 
+  color: white; 
+  font-size: 25px; 
+}
+
+.icon-bar a:hover {
+ 
+       color: aquamarine;
+}
+
+.course-heading {
+    height: 300px;
+    background-color: #1d182b;
+}
+.course-heading .itemss{
+    display:inline-flex;
+    padding-top: 110px;
+    
+   
+}
+.course-heading .itemss h2{
+    color: white;
+   margin: 20px 
+   
+}
+#aboutme h1{
+    padding-top: 60px;
+    margin-bottom: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#aboutme h4 {
+    margin-bottom: 23px;
+   font-family: 'Economica', sans-serif;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 ;
+}
+
+#aboutme{
+    color:#08627d;
+    font: bold 70px solid
+}
+
+
+.bn  {
+    color: #39bdc8;
+}
+.imgs {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.textt {
+    position: absolute;
+    z-index: 30;
+}
+
+.campimg{
+    background-image: url(img/bgccc.jpg) ;
+    height: 1500px;
+    width: 100%;
+  z-index: -1;
+    background-size: cover;
+}
+/*
+.captionn{
+    z-index: 5;
+    top: 10%;
+     width: 100%;
+    max-width: 100%;
+    position: relative;
+    color: white;
+}
+*/
+
+.capti{
+    z-index: 5;
+    color: white;
+    margin: 0 16% ;
+    top: 5%;
+    position: relative;
+}
+.headingg h2 {
+    color: #727171;
+    
+}
+.headingg  h4 {
+    font-size: 15px;
+    color: #727171;
+}
+
+.captionn h1{
+    font-size: 45px;
+}
+
+.roww{
+    margin-top: 4%
+}
+.btn {
+    border-radius: 0;
+    border: 2px solid white;
+}
+.headerborder{
+    background-color: white;
+    width: 160px;
+    height: 4px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.tg{
+    text-align: center;
+   
+}
+
+.team_sectin{
+    background-color: cadetblue;
+    color: white;
+   
+}
+.tg img{
+       
+    width: 100%;
+    
+}
+#btnn{
+    position: absolute;
+    text-align: center;
+    }
+
+.tg a{
+    display: inline-block;
+    width: 200px;   
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin:  20px;
+}
+.tg img:hover{
+    filter: grayscale(100%);
+}
+
+.section{
+    height: 0;
+    overflow: hidden;
+}
+.inspired  {
+margin-left: auto;
+    display: inline-flex;
+    
+}
+.section:target{
+    height: auto;
+}
+.footer{
+
+    width: 100%;
+    background-color: #29303b;
+    color: #adb5bd;
+}
+
+.footer h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 35px;
+}
+
+.myicons{
+    list-style-type: none;
+    display: inline-block
+
+}
+.myicons li {
+    float: left;
+
+    padding-right: 15px;
+    position: relative;
+    
+}
+ 
+.myicons li>a {
+    color: white;
+    font-size: 23px
+} 
+
+
+@media(min-width:2300px){
+    .left h1 {
+  
+/*    margin-left: 80px;*/
+/*    line-height: 140px;*/
+    letter-spacing: 3px;
+      font-size:9vh;
+    
+}
+    
+    .icon-bar a {
+
+  font-size: 50px; 
+}
+}
+
+
+
+
+
+@media(max-width:1200px){
+   
+
+
+.left h1 {
+  
+/*    margin-left: 80px;*/
+/*    line-height: 70px;*/
+    letter-spacing: 3px;
+      font-size:50px;
+    
+}
+.left h3{
+    padding-top: 12px;
+    font-size: 17px;
+    letter-spacing: 3px;
+    line-height: 30px;
+} 
+}
+@media(max-width:990px){
+     
+
+
+
+.left h1 {
+  
+/*    margin-left: 80px;*/
+/*    line-height: 40px;*/
+    letter-spacing: 3px;
+      font-size:5vh;
+    
+}
+.left h3{
+    padding-top: 12px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+    .inspired  {
+    margin: 0 auto;
+    text-align: center;
+    
+    margin-left: 14%
+}
+    .course-heading .itemss h2{
+    color: white;
+  
+        font-size: 25px;
+   
+}
+    
+    
+    
+    
+    
+}
+
+@media(max-width:810px){
+    
+        .carousel-control-next, .carousel-control-prev{
+   
+    margin-top: 50%;
+    
+}
+       .icon-bar {
+  width: 50px; 
+    margin-left:77%;
+}
+}
+@media(max-width:718px){
+    .left h1 {
+  
+/*    margin-left: 80px;*/
+/*    line-height: 70px;*/
+    letter-spacing: 3px;
+      font-size:20px;
+    
+}
+.left h3{
+    padding-top: 12px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    line-height: 30px;
+} 
+    
+    
+    
+        .course-heading .itemss h2{
+    color: white;
+  
+        font-size: 19px;
+   
+}
+    .tg a{
+    display: inline-block;
+    width: 150px;   
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin:  20px;
+}
+
+    
+    
+}
+@media(max-width:600px){
+    
+        .course-heading .itemss h2{
+    color: white;
+  
+        font-size: 15px;
+   
+}
+    .tg a{
+    display: inline-block;
+    width: 150px;   
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin:  10px;
+}
+
+
+.left h1 {
+  
+/*    margin-left: 80px;*/
+/*    line-height: 35px;*/
+    letter-spacing: 3px;
+      font-size:35px;
+    
+}
+.left h3{
+    padding-top: 12px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 14px;
+}
+    .icon-bar {
+  width: 50px; 
+    margin-left:75%;
+}
+    .carousel-control-next, .carousel-control-prev{
+   
+    margin-top: 0%;
+    
+}
+    .campimg{
+   
+     height: 2000px;
+    width: 100%;
+  z-index: -1;
+    background-size: cover;
+}
+
+}
+
+@media(max-width:450px){
+.left{
+    width: 100%;
+    
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 7%;
+   
+    
+}
+
+
+
+.left h1 {
+  
+/*    margin-left: 80px;*/
+/*    line-height: 25px;*/
+    letter-spacing: 3px;
+      font-size:20px;
+    padding: 0 10px 0 ;
+    
+}
+.left h3{
+    padding-top: 12px;
+    font-size: 8px;
+    letter-spacing: 2px;
+    line-height: 10px;
+}
+    .icon-bar {
+  width: 50px; 
+    margin-left:70%;
+}
+       .course-heading {
+    height: 200px;
+    background-color: #1d182b;
+}
+.course-heading .itemss{
+    display:inline-flex;
+    padding-top: 70px;
+    
+   
+}
+.course-heading .itemss h2{
+    color: white;
+ 
+    font-size: 10px;
+    margin: 30px 8px  5px;
+}
+    #clock1 , #clock3 , #clock4{
+display: none;
+}
+#clock2{
+   display: none;
+}
+  #aboutme h4 {
+    margin-bottom: 23px;
+   font-family: 'Economica', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 25px ;
+} 
+       .capti{
+    z-index: 5;
+    color: white;
+    margin: 0 2% ;
+    top: 5%;
+    position: relative;
+           
+}
+.headingg h2 {
+    color: #727171;
+    
+}
+    .headingg h3{
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+.headingg  h4 {
+    font-size: 10px;
+    color: #727171;
+} 
+    #two{
+        font-size: 12px;
+    }
+    
+    .rowww{
+        margin: 0 25%;
+    }
+    
+    #icono{
+        margin: 10% 0 15% 0;
+    }
+    
+    .carousel-control-next, .carousel-control-prev{
+   
+    margin-top: 50%;
+    
+}
+       .campimg{
+    
+     height: 2520px;
+    width: 100%;
+  z-index: -1;
+    background-size: cover;
+}
+
+    .footer a{
+    margin-left: 40%;
+        
+}
+    
+    #clock1 , #clock3 , #clock4{
+    font-size: 1.5vh;
+    text-align: center;
+   position: absolute;
+    z-index: 10;
+    margin: 10% 0% 0% 0%;
+}
+#clock2{
+    font-size: 1.5vh;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    margin-top: 8%;
+}
+   
+}
+
+@media (max-width:350px){
+         .left{
+    width: 100%;
+
+    text-align: left;
+
+    margin-bottom: 40%;
+          
+}
+
+    .course-heading {
+    height: 200px;
+    background-color: #1d182b;
+}
+.course-heading .itemss{
+    display:inline-flex;
+    padding-top: 70px;
+    
+   
+}
+.course-heading .itemss h2{
+    color: white;
+ 
+    font-size: 10px;
+    margin: 30px 0 0 5px;
+}
+  #aboutme h4 {
+    margin-bottom: 23px;
+   font-family: 'Economica', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 ;
+}  
+    
+   .capti{
+    z-index: 5;
+    color: white;
+    margin: 0 2% ;
+    top: 5%;
+    position: relative;
+}
+.headingg h2 {
+    color: #727171;
+    
+}
+    .headingg h3{
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+.headingg  h4 {
+    font-size: 10px;
+    color: #727171;
+} 
+    #two{
+        font-size: 12px;
+    }
+    
+    .rowww{
+        margin: 0 17%;
+    }
+    
+    #icono{
+        margin: 10% 0 15% 0;
+    }
+    
+ 
+    
+}
+
+
+
+@media(max-width:255px){
+          .campimg{
+    
+     height: 2750px;
+    width: 100%;
+  z-index: -1;
+    background-size: cover;
+}
+}

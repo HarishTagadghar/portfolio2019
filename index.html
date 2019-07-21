@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Starter Template · Bootstrap</title>
+    
+    <!--Template based on URL below-->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Place your stylesheet here-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+<!--    animation on text-->
+<link rel="stylesheet" href="animatecss.css">
+<link rel="icon" href="img/2.jpg">
+
+
+</head>
+
+<body   onload="myfuncion();realtimeclock()" >
+
+<div id="loader"></div>
+
+
+
+
+
+<!--   home section startes here-->
+<div id="home" class="offset">
+<!--    navbar-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a href="#" class="">    
+            
+             <picture class="animated  bounceIn delay-1s">
+                              <source  media="(min-width: 1081px)" srcset="img/LOGOD.png">
+                              <source media="(max-width: 1080px)" srcset="img/LOGOD_mobie.png">
+                              <img  src="img/LOGOD.png" alt="">
+                          </picture>
+    
+    
+  
+    
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+     data-target="#navbarResponsive">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+    
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        
+        <ul class=" nav navbar-nav ml-auto">
+            <li class="nav-item active">
+            <a class="nav-link active" href="#home">HOME</a>
+            </li>
+             <li class="nav-item">
+            <a class="nav-link" href="#course">ABOUT</a>
+            </li>
+             
+             <li class="nav-item">
+            <a class="nav-link" href="#resources">RESOURCES</a>
+            </li>
+             <li class="nav-item">
+            <a class="nav-link" href="#clients">INSPRITION</a>
+            </li>
+             <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+        </ul>
+        
+        
+        
+    </div>
+    
+    
+    
+    
+</nav>
+<div class="landing">
+    <div class="home-wrap">
+        <div class="home-inner">
+                <div class="cantainer-fluid">
+<!--           carousel indicators -->
+            <div class="carousel slide carousel-fade" id="my-carousel" data-ride="carousel">
+                
+                <ol class="carousel-indicators">
+                    <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#my-carousel" data-slide-to="1" ></li>
+                    <li data-target="#my-carousel" data-slide-to="2"></li>
+                    <li data-target="#my-carousel" data-slide-to="2"></li>
+                </ol>
+<!--                carousel inner-->
+                <div class="carousel-inner">
+                    
+<!--                    slide1-->
+                    <div class="carousel-item text-center active  " style="background-color: black;">
+                        
+                        <div class="img-box">
+<!--                            <img   id="slider1-lg" src="img/firstimg.jpg"  class="hidden-xs" alt="">-->
+                          <picture>
+                              <source  media="(min-width: 781px)" srcset="img/one.jpg">
+                              <source media="(max-width: 780px)" srcset="img/one_mobile.jpg">
+                              <img  src="img/firstimg.jpg" alt="">
+                          </picture>
+                        </div>
+                        <div class="carousel-caption left ">
+                        <h1 class="animated  bounceInUp "  style="padding: 0 40% 0 0;">WINNERS OF <br>  MUSE CREATIVE <br>AWARDS, NEW YORK.</h1>
+                     
+                        <h3 class="text-white animated  bounceInUp" style="padding: 0% 40% 0 0 ;">Our creative approach for MindLogicx got us noticed by  the Muse Jury in the Best Art & Design category</h3>
+                     
+                     <div id="clock1" class="animated bounceInLeft"  >   </div>
+                       
+                        </div>
+                         
+                       
+                         <div class="icon-bar carousel-caption  animated bounceInRight ">
+                              <a class="active" href="#home"><i class="fa fa-home"></i></a> 
+                              <a href="#course"><i class="fa fa-magnet"></i></a> 
+                              <a href="#resources"><i class="fa fa-pie-chart"></i></a> 
+                              <a href="#clients"><i class="fa fa-user-circle"></i></a>
+                              <a href="#contact"><i class="fa fa-volume-control-phone"></i></a> 
+                       </div>
+
+            
+        </div>
+                
+                 <div class="carousel-item text-center  " style="background-color: black;">
+                        
+                        <div class="img-box">
+<!--                            <img src="img/slider-4.jpg" class="" alt="">-->
+                        <picture>
+                              <source  media="(min-width: 781px)" srcset="img/two.jpg">
+                              <source media="(max-width: 780px)" srcset="img/two_mobile.jpg">
+                              <img  src="img/firstimg.jpg" alt="">
+                          </picture>
+                        </div>
+                        <div class="carousel-caption  left">
+                        <h1 class="animated  bounceInUp "  style="padding: 0 40% 0 0;">EXPERTS IN
+                                                                    <br>EXPERIENCE AND
+                                                                    INTERACTION FOR <br> MOBILE APPS</h1>
+                     
+                        <h3 class="text-white animated  bounceInUp" style="padding: 0% 40% 0 0 ;">Complete UX & UI design creation for PetzPub, which caters to every pet lover's needs for their furry friend.</h3>
+                         <div id="clock2" class="animated bounceInLeft" >  </div>
+                       </div> 
+                               
+                               
+                       <div class="icon-bar carousel-caption   animated bounceInRight">
+                              <a class="active" href="#home"><i class="fa fa-home"></i></a> 
+                              <a href="#course"><i class="fa fa-magnet"></i></a> 
+                              <a href="#resources"><i class="fa fa-pie-chart"></i></a> 
+                              <a href="#clients"><i class="fa fa-user-circle"></i></a>
+                              <a href="#contact"><i class="fa fa-volume-control-phone"></i></a> 
+                       </div>
+            
+        </div>
+        
+        
+        
+         <div class="carousel-item text-center " style="background-color: black;">
+                        
+                        <div class="img-box">
+<!--                            <img src="img/slider-2.jpg" class=" " alt="">-->
+                        <picture>
+                              <source  media="(min-width: 781px)" srcset="img/three.jpg">
+                              <source media="(max-width: 780px)" srcset="img/three_mobile.jpg">
+                              <img  src="img/firstimg.jpg" alt="">
+                          </picture>
+                        </div>
+                        <div class="carousel-caption  left">
+                            <h1 class="animated  bounceInUp "  style="padding: 0 40% 0 0;">THE BEST OF <br>
+                                                                            PRODUCT PHOTOGRAPHY
+                                                                            <br>SOLUTIONS</h1>
+                     
+                        <h3 class="text-white animated  bounceInUp" style="padding: 0% 40% 0 0 ;">OneAndOnlyDesign provides the best in industry of product photography & digital imaging services</h3>
+                         <div id="clock3"  class="animated bounceInLeft" >  </div>
+                        </div>
+                             
+                          <div class="icon-bar carousel-caption   animated bounceInRight ">
+                              <a class="active" href="#home"><i class="fa fa-home"></i></a> 
+                              <a href="#course"><i class="fa fa-magnet"></i></a> 
+                              <a href="#resources"><i class="fa fa-pie-chart"></i></a> 
+                              <a href="#clients"><i class="fa fa-user-circle"></i></a>
+                              <a href="#contact"><i class="fa fa-volume-control-phone"></i></a> 
+                       </div>
+
+            
+        </div>
+  
+     <div class="carousel-item text-center " style="background-color: black;">
+                       
+
+                        <div class="img-box">
+<!--                            <img src="img/slider-3.jpg" class=" " alt="">-->
+                        <picture>
+                              <source  media="(min-width: 781px)" srcset="img/four.jpg">
+                              <source media="(max-width: 780px)" srcset="img/slider-4_mobile.jpg">
+                              <img  src="img/firstimg.jpg" alt="">
+                          </picture>
+                        </div>
+                           <div class="carousel-caption  left">
+                        <h1 class="animated  bounceInUp " style="padding: 0 40% 0 0;">DEVELOPERS OF <br>
+                                                                            ENTERPRISE UX/UI
+                                                                            FOR KGK GROUP, CHINA.</h1>
+                     
+                        <h3 class="text-white animated  bounceInUp" style="padding: 0% 40% 0 0 ;">KGK Jewellery, China's preferred Jewellery Brand trusted us with their Enterprise Application's UI & UX revamp.</h3>
+                         <div id="clock4" class="animated bounceInLeft" >  </div>
+                      </div>  
+                             
+                         <div class="icon-bar carousel-caption  animated bounceInRight ">
+                              <a class="active" href="#home"><i class="fa fa-home"></i></a> 
+                              <a href="#course"><i class="fa fa-magnet"></i></a> 
+                              <a href="#resources"><i class="fa fa-pie-chart"></i></a> 
+                              <a href="#clients"><i class="fa fa-user-circle"></i></a>
+                              <a href="#contact"><i class="fa fa-volume-control-phone"></i></a> 
+                       </div>
+                      
+                      
+
+            
+        </div>
+  
+  
+  
+   
+                </div>
+                
+                
+<!--                carousel controles-->
+                
+                
+                <a href="#my-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">previous</span>
+                    
+                </a>
+                <a href="#my-carousel" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">next</span>
+                    
+                </a>
+                
+                
+            </div>
+   
+                </div>
+   
+
+        </div>
+    </div>
+</div>
+
+
+
+<!--    navbar-->
+    
+    
+    
+</div>
+
+<!--   home section ends here-->
+
+   
+<!--   home course startes here-->
+
+   <div id="course" class="offset">
+    <div class=" course-heading  text-center">
+        <div class="itemss text-center   ">
+            <h2 class=" wow zoomIn">Experienced Elite Author </h2>
+           
+            <img class=" wow zoomIn" src="img/courselogo.jpg" alt="">
+            <h2 class=" wow zoomIn">#1 rated on something</h2>
+        </div>
+    
+    </div>
+</div>
+
+<div class="about_me container text-center" id="aboutme">
+    <h1 >ABOUT ME</h1>
+   
+    <h4 id="aboutme" class="wow slideInUp " style="text-align: center">I am Harish Tg, I hold a degree in programming, with a work experience as a part time programmer and web designer. I am a front end developer. I have a handfull of knowledge and expertise in HTML, CSS, Bootstrap, J Query, Java Script, and  Media Queries. I would love to take feedback to improve myself and gain lot more experience.... </h4>
+    
+</div>
+
+
+
+
+
+
+
+
+<!--   home course ends here-->
+
+<!--   home section startes here-->
+
+<div id="resources" class="  offset">
+
+    <div class="campimg fixed">
+      <div class="capti ">
+      <div class="headingg container text-center wow fadeInUp">
+          <h2>Resourse</h2>
+          <h3> Things Which Are Used In This Project</h3>
+          <h4>My approach is simple. <br> My strength is design thinking & using crack for everything</h4>
+      </div>
+      
+      <div class="row roww rowww text-center">
+          <div class="col wow fadeInLeft"><i id="icono" style="font-size: 70px;  color: orange" class="fa fa-code" aria-hidden="true"></i> <br>
+          <h3 id="one" style="color: white;">HTML</h3>
+          <p id="two" style=" color: #727171; margin-bottom: 10%;" class="text-center ont">An HTML document is a plaintext document structured with elements. Elements are surrounded by matching opening and closing tags. Each tag begins and ends with angle brackets ()</p>
+        
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">  <button  class="btn btn-outline-light">LEARN MORE&raquo;</button></a>
+         
+          </div>
+          
+          
+          
+          <div class="col wow fadeInRight">  <i id="icono" style="font-size: 70px;   color: orange" class="fa fa-css3" aria-hidden="true"></i> <br>
+          <h3 style="color: white;">CSS</h3>
+          <p id="two" style="color: #727171; margin-bottom: 10%;" class="text-center">Cascading Style Sheets is a declarative language that controls how webpages look in the browser. The browser applies CSS style declarations to selected elements to display them properly.</p>
+         
+           <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS"> <button class="btn btn-outline-light">LEARN MORE&raquo;</button></a>
+          
+          </div>
+      </div>
+     
+     
+      <div class="row roww rowww text-center">
+          <div class="col  wow fadeInLeft"><i style="font-size: 70px;   color: orange"id="icono" class="fa fa fa-bold" aria-hidden="true"></i> <br>
+          <h3 style="color: white;">BOOTSTRAP</h3>
+          <p id="two" style=" color: #727171; margin-bottom: 10%;" class="text-center">Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, </p>
+          
+          <a href="https://getbootstrap.com/"> <button class="btn btn-outline-light">LEARN MORE&raquo;</button></a>
+          
+   
+          
+          </div>
+          <div class="col  wow fadeInRight"><i id="icono" style="font-size: 70px;  color: orange" class="fa fa-wheelchair-alt" aria-hidden="true"></i> <br>
+          <h3 style="color: white;">JAVASCRIPT</h3>
+          <p id="two" style=" color: #727171; margin-bottom: 10%;" class="text-center">JavaScript (JS) is a programming language mostly used to dynamically script webpages on the client side, but it is also often utilized on the server-side, using packages</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript"> <button class="btn btn-outline-light">LEARN MORE&raquo;</button></a>
+          </div>
+          
+      </div>
+     
+     
+     <div class="row roww rowww text-center">
+          <div class="col wow fadeInLeft"><i style="font-size: 70px;   color: orange" id="icono" class="fa fa-ravelry" aria-hidden="true"></i> <br>
+          <h3 style="color: white;">JQUERY</h3>
+          <p id="two" style=" color: #727171; margin-bottom: 10%;" class="text-center">jQuery is a JavaScript Library that focuses on simplifying DOM manipulation, AJAX calls, and Event handling. It is used by JavaScript developers frequently.</p>
+          
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/jQuery">  <button class="btn btn-outline-light">LEARN MORE&raquo;</button></a>
+          
+   
+          
+          </div>
+          <div class="col  wow fadeInRight"><i style="font-size: 70px;   color: orange" id="icono" class="fa fa-superpowers" aria-hidden="true"></i> <br>
+          <h3 style="color: white;">NODE JS</h3>
+          <p id="two" style=" color: #727171; margin-bottom: 10%;" class="text-center">Node.js is a cross-platform JavaScript runtime environment that allows developers to build server-side and network applications with <br> JavaScript.</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/Node.js"> <button class="btn btn-outline-light">LEARN MORE&raquo;</button></a>
+          </div>
+          
+      </div>
+     
+     
+     <div>
+         <h3 style="color: #727171; margin-top: 5%; font-size: 15px" class="text-center">Don't Judge Me On These Icons There Are Not Specific Icons For This Functions</h3>
+     </div>
+     
+     
+     
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+<!--
+       <div class="captionn ">
+    <h1>WE ARE HERE FOR YOU</h1>
+    <h5>ON BEHALF OF UDEMY COURSE</h5>
+    </div>
+       
+-->
+   </div>
+   
+   </div>
+
+
+<!--   home section ends here-->
+   
+<!--   home section startes here-->
+<div id="clients" class="offset">
+   <div class="team_sectin">
+       <div class="header">
+           <h2 class="text-center" style="margin-bottom:2%; padding-top: 2%;font-family: 'Days One', sans-serif;">INSPIRED BY</h2>
+       </div>
+       
+       <span class="headerborder"></span>
+            
+            <div class="tg">
+             <div class="row inspired">
+               <div class="img1">
+                <a class="center" href="#p1"><img src="img/hitesh.jpg" alt=""></a>
+                
+                <button style="margin-right: 1% ; margin-bottom: 5%"  class="btn btn-outline-light">Click Him &raquo;</button>
+               </div>
+               <div class="img2">
+                <a href="#p2"><img src="img/angelayu.jpg" alt=""></a>
+                 <button style="margin-right: 1%;margin-bottom: 5%"  class="btn btn-outline-light">Click Her &raquo;</button>
+                </div>
+             </div>
+            </div>
+          <div class="section" id="p1">
+              <h3 class="text-center" style="font-family: 'Days One', sans-serif;">HITESH CHOUDHARY</h3>
+              <span class="headerborder" style="margin-top: 1%"></span>
+              <p style="padding: 0 25%; padding-bottom: 1%;">Hi, My name is Hitesh. I mainly write code for web applictions and Mobile apps. I also teach people, “How to write code”. I am a Youtuber and sometimes I talk at events too. There is a About Me page for more details. Also you can watch my Video resume by clicking here.</p>
+          </div>
+           
+           <div class="section" id="p2">
+              <h3 class="text-center" style="font-family: 'Days One', sans-serif;">ANGELA YU</h3>
+              <span class="headerborder" style="margin-top: 1%"></span>
+              <p style="padding: 0 25%; padding-bottom: 1%;">I'm Angela, I'm a developer with a passion for teaching. I'm the lead instructor at the London App Brewery, London's leading Programming Bootcamp. I've helped hundreds of thousands of students learn to code and change their lives by becoming a developer.</p>
+          </div>
+          
+         
+           
+           
+          
+          
+       </div>
+      </div>
+
+   
+   
+   
+   
+
+
+<!--   home section ends here-->
+     
+   
+<!--   home section startes here-->
+<div id="contacat" class="offset">
+    
+    <div class="footer" >
+        <div class=" container text-center">
+           <img src="img/maintg.png" alt="" style="height: 100px;">
+            
+            <p>Contact Me On &rarr; 9343508508</p>
+           <ul class="myicons">
+               <li><a href="https://www.facebook.com/harish269" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+               <li><a href="https://www.instagram.com/harish__tg/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+               <li><a href=""><i class="fa fa-internet-explorer" aria-hidden="true"></i></a></li>
+               
+           </ul>
+        </div>
+       
+    
+       <a style="font-size: 10px;" id="source" href="source/source.rar" download>Download Source</a>
+      
+    </div>
+    
+    
+</div>
+
+<!--   home section ends here-->   
+   
+   
+   
+   
+   
+   
+   
+<!--
+   <script type="text/javascript">
+       $(window).on('scroll',function(){
+           if($(window).scrollTop()) {
+               $('nav').addClass('black');
+           }
+           else{
+               $('nav').removeClass('black');
+           }
+       })
+    
+    
+    
+    
+    
+    </script>
+   
+   
+   
+-->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+ 
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+   
+    <script>
+    var preloader = document.getElementById('loader');
+        function myfuncion(){
+            preloader.style.display = 'none';
+        }
+    
+    
+    </script>    
+             
+                         
+     <script>
+    function realtimeclock() {
+        var rtclock = new Date();
+        
+        var hours = rtclock.getHours();
+        var minutes = rtclock.getMinutes();
+        var seconds =rtclock.getSeconds();
+        
+        var ampm = (hours < 12) ? "AM" : "PM" ;
+        
+        hours = ( hours > 12) ? hours - 12 : hours ;
+        
+        hours = ("0" + hours).slice(-2);
+        minutes = ("0" + minutes).slice(-2);
+        seconds = ("0" + seconds).slice(-2);
+        
+        document.getElementById("clock1").innerHTML =
+            hours + "   :   " + minutes + "  <br>  " + seconds + "  " + ampm;
+        var t = setTimeout(realtimeclock, 500);
+        
+         document.getElementById("clock2").innerHTML =
+            hours + "   :   " + minutes + "  <br>  " + seconds + "  " + ampm;
+        var t = setTimeout(realtimeclock, 500);
+        
+         document.getElementById("clock3").innerHTML =
+            hours + "   :   " + minutes + "  <br>  " + seconds + "  " + ampm;
+        var t = setTimeout(realtimeclock, 500);
+        
+         document.getElementById("clock4").innerHTML =
+            hours + "   :   " + minutes + "  <br>  " + seconds + "  " + ampm;
+        var t = setTimeout(realtimeclock, 500);
+        
+    }
+    
+    
+    
+    
+    </script>          
+        <script>
+              new WOW().init();
+              </script>
+       
+</body>
+</html>
